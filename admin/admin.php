@@ -1,3 +1,23 @@
+<?php
+// alert masih bermasalah tidak mau muncul
+session_start();
+if ($_SESSION['level'] != 'admin') {
+    echo "<script>
+        alert('Maaf anda bukan sesi admin');
+        window.location.assign('../index2.php');
+        </script>";
+}
+
+if (empty($_SESSION['id_petugas'] != 'admin')) {
+    echo "<script>
+        alert('Maaf anda belum login');
+        window.location.assign('../index2.php');
+        </script>";
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
