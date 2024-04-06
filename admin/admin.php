@@ -1,5 +1,5 @@
 <?php
-// alert masih bermasalah tidak mau muncul
+// mencegah pengguna langsung akses halaman admin tanpa login
 session_start();
 if ($_SESSION['level'] != 'admin') {
     echo "<script>

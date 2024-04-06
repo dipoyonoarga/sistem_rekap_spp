@@ -15,15 +15,15 @@ if (mysqli_num_rows($query) > 0) {
     $_SESSION['id_petugas'] = $data['id_petugas'];
     $_SESSION['nama_petugas'] = $data['nama_petugas'];
     $_SESSION['level'] = $data['level'];
+    // verifikasi username dan password
     if ($data['level'] == 'admin') {
         header('Location:admin/admin.php');
     } else if ($data['level'] == 'petugas') {
         header('Location:petugas/petugas.php');
-        // alert pass atau user salah masih tidak mau muncul
-    } else {
-        echo "<script>
-        alert('Login Gagal, Silakan Ulangi Lagi');
-        window.location.assign('index2.php');
-        </script>";
     }
+} else {
+    echo "<script>
+    alert('Login gagal, silakan coba lagi');
+    window.location.assign('index2.php');
+    </script>";
 }
