@@ -1,7 +1,7 @@
 <h5>Halaman Tambah Data SPP.</h5>
 <a href="?url=spp" class="btn btn-primary">Kembali</a>
 <hr>
-<form method="post" action="?=url=proses-tambah-spp">
+<form method="post" action="?url=proses-tambah-spp">
     <div class="form-groub mb-2">
         <label>Tahun</label>
         <input type="number" name="tahun" maxlength="4" class="form-control" required>
