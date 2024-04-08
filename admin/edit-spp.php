@@ -13,7 +13,7 @@ $data = mysqli_fetch_array($query);
 <form method="post" action="?url=proses-edit-spp&id_spp=<?= $id_spp; ?>">
     <div class="form-groub mb-2">
         <label>Tahun</label>
-        <input value="<?= $data['tahun'] ?>" name="tahun" maxlength="4" class="form-control" required>
+        <input type="number" <?= $data['tahun'] ?>" name="tahun" maxlength="4" class="form-control" required>
     </div>
     <div class="form-groub mb-2">
         <label>Nominal</label>
