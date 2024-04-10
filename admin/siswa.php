@@ -32,7 +32,7 @@
             <td><?= $data['alamat'] ?></td>
             <td><?= $data['no_telp'] ?></td>
             <td><?= $data['nominal'] ?></td>
-            <td><?= $data['tahun'] ?> - <?= number_format($data['id_nominal'], 2, ',', '.')  ?></td>
+            <td><?= $data['tahun'] ?> - <?= number_format($data['nominal'], 2, ',', '.')  ?></td>
 
 
             <!-- tombol edit dan hapus data -->

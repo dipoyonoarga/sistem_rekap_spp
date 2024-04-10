@@ -38,6 +38,11 @@
     </div>
 
     <div class="form-groub mb-2">
+        <label>No Telepon</label>
+        <input type="number" name="no_telp" class="form-control" required>
+    </div>
+
+    <div class="form-groub mb-2">
         <label>SPP</label>
         <select name="id_spp" class="form-control" required>
             <option value="">Pilih SPP</option>
