@@ -11,6 +11,7 @@
         <td>Alamat</td>
         <td>No Telp</td>
         <td>SPP</td>
+
         <td>Edit</td>
         <td>Hapus</td>
     </tr>
@@ -31,7 +32,6 @@
             <td><?= $data['nama_kelas'] ?></td>
             <td><?= $data['alamat'] ?></td>
             <td><?= $data['no_telp'] ?></td>
-            <td><?= $data['nominal'] ?></td>
             <td><?= $data['tahun'] ?> - <?= number_format($data['nominal'], 2, ',', '.')  ?></td>
 
 
