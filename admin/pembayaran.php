@@ -50,7 +50,7 @@
                 if ($kekurangan == 0) {
                     echo "<span class='badge text-bg-success'> Sudah Lunas </span>";
                 } else { ?>
-                    <a href="?url=tambah-pembayaran&nisn=<?= $data['nisn'] ?>&kekurangan=<?= $kekurangan; ?>" class="btn btn-danger">Pilih & Bayar</a>
+                    <a href="?url=tambah-pembayaran&nisn=<?= $data['nisn'] ?>&kekurangan=<?= $kekurangan ?>" class="btn btn-danger">Pilih & Bayar</a>
 
                 <?php } ?>
             </td>

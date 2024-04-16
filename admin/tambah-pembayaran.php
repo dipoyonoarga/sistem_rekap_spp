@@ -9,7 +9,7 @@ $query = mysqli_query($koneksi, $sql);
 $data = mysqli_fetch_array($query);
 ?>
 
-<h5>Halaman Edit Data Kelas.</h5>
+<h5>Halaman Pembayaran SPP.</h5>
 <a href="?url=kelas" class="btn btn-primary">Kembali</a>
 <hr>
 <form method="post" action="?url=proses-tambah-pembayaran&nisn=<?= $nisn; ?>">
