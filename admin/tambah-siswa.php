@@ -2,20 +2,20 @@
 <a href="?url=siswa" class="btn btn-primary">Kembali</a>
 <hr>
 <form method="post" action="?url=proses-tambah-siswa">
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>NISN</label>
         <input type="number" name="nisn" class="form-control" required>
     </div>
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>NIS</label>
         <input type="number" name="nis" class="form-control" required>
     </div>
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Nama</label>
         <input type="text" name="nama" class="form-control" required>
     </div>
     <!-- banyak relasi -->
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>kelas</label>
         <select name="id_kelas" class="form-control" required>
             <option value="">Pilih Kelas</option>
@@ -32,17 +32,17 @@
         </select>
     </div>
     <!-- alamat menggunakan text area -->
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Alamat</label>
         <textarea name="alamat" class="form-control" required></textarea>
     </div>
 
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>No Telepon</label>
         <input type="number" name="no_telp" class="form-control" required>
     </div>
 
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>SPP</label>
         <select name="id_spp" class="form-control" required>
             <option value="">Pilih SPP</option>

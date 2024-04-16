@@ -12,20 +12,20 @@ $data = mysqli_fetch_array($query);
 <a href="?url=siswa" class="btn btn-primary">Kembali</a>
 <hr>
 <form method="post" action="?url=proses-edit-siswa&nisn=<?= $nisn; ?>">
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>NISN</label>
         <input value="<?= $data['nisn'] ?>" readonly type="number" name="nisn" class="form-control" required>
     </div>
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>NIS</label>
         <input value="<?= $data['nis'] ?>" type=" number" name="nis" class="form-control" required>
     </div>
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Nama</label>
         <input value="<?= $data['nama'] ?>" type=" text" name="nama" class="form-control" required>
     </div>
     <!-- banyak relasi -->
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>kelas</label>
         <select name="id_kelas" class="form-control" required>
             <option value="<?= $data['id_kelas'] ?>"><?= $data['nama_kelas'] ?></option>
@@ -42,17 +42,17 @@ $data = mysqli_fetch_array($query);
         </select>
     </div>
     <!-- alamat menggunakan text area -->
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Alamat</label>
         <textarea name="alamat" class="form-control" required> <?= $data['alamat'] ?> </textarea>
     </div>
 
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>No Telepon</label>
         <input value="<?= $data['no_telp'] ?>" type="number" name="no_telp" class="form-control" required>
     </div>
 
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>SPP</label>
         <select name="id_spp" class="form-control" required>
             <option value="<?= $data['id_spp'] ?>"><?= $data['tahun']; ?> | <?= number_format($data['nominal'], 2, ',', '.');

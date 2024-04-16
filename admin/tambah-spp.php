@@ -2,11 +2,11 @@
 <a href="?url=spp" class="btn btn-primary">Kembali</a>
 <hr>
 <form method="post" action="?url=proses-tambah-spp">
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Tahun</label>
         <input type="number" name="tahun" maxlength="4" class="form-control" required>
     </div>
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Nominal</label>
         <input type="number" name="nominal" maxlength="13" class="form-control" required>
     </div>

@@ -11,11 +11,11 @@ $data = mysqli_fetch_array($query);
 <a href="?url=kelas" class="btn btn-primary">Kembali</a>
 <hr>
 <form method="post" action="?url=proses-edit-kelas&id_kelas=<?= $id_kelas; ?>">
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Nama Kelas</label>
         <input type="text" value="<?= $data['nama_kelas'] ?>" name="nama_kelas" class="form-control" required>
     </div>
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Kompetensi Keahlian</label>
         <input value="<?= $data['kompetensi_keahlian'] ?>" type="text" name="kompetensi_keahlian" class="form-control" required>
     </div>

@@ -2,11 +2,11 @@
 <a href="?url=kelas" class="btn btn-primary">Kembali</a>
 <hr>
 <form method="post" action="?url=proses-tambah-kelas">
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Nama Kelas</label>
         <input type="text" name="nama_kelas" class="form-control" required>
     </div>
-    <div class="form-groub mb-2">
+    <div class="form-group mb-2">
         <label>Kompetensi Keahlian</label>
         <input type="text" name="kompetensi_keahlian" class="form-control" required>
     </div>
