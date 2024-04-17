@@ -12,7 +12,7 @@
 <body>
     <div class="container mt-5"> <!-- tinggi rendah logo -->
         <div class="row justify-content-md-center">
-            <div class="col-md-2"> <!-- ukuran frame logo -->
+            <div class="col-md-3"> <!-- ukuran frame logo -->
                 <h4 class="text-center">Login Siswa</h4>
                 <div class="card">
                     <div class="card-header">

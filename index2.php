@@ -12,8 +12,8 @@
 <body>
     <div class="container mt-5"> <!-- tinggi rendah logo -->
         <div class="row justify-content-md-center">
-            <div class="col-md-2"> <!-- ukuran frame logo -->
-                <h4 class="text-center">Login Admin</h4>
+            <div class="col-md-3"> <!-- ukuran frame logo -->
+                <h4 class="text-center">Login Admin/Petugas</h4>
                 <div class="card">
                     <div class="card-header">
 
