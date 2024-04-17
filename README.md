@@ -1,4 +1,4 @@
-<h1> Sistem Rekap SPP <h1>
+<h1> Sistem Rekap SPP </h1>
 
 Sistem Rekap SPP dibuat dengan menggunakan bahasa PHP dan framework Bootstrap. Program ini memudahkan pencatatan pembayaran SPP siswa. Kode yang digunakan berasal dari link berikut:
 
