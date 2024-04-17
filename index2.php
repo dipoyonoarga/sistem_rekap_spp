@@ -16,7 +16,7 @@
                 <h4 class="text-center">Login Admin</h4>
                 <div class="card">
                     <div class="card-header">
-                        <img src="logo.png" width="100%">
+
                     </div>
                     <!-- form login -->
                     <div class="card-body"></div>
