@@ -5,7 +5,7 @@
     <tr class="fw-bold">
         <td>No</td>
         <td>Nama Kelas</td>
-        <td>Kompetensi Keahlian</td>
+        <td>Wali Kelas</td>
         <td>Edit</td>
         <td>Hapus</td>
     </tr>

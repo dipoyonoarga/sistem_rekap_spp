@@ -16,7 +16,7 @@ $data = mysqli_fetch_array($query);
         <input type="text" value="<?= $data['nama_kelas'] ?>" name="nama_kelas" class="form-control" required>
     </div>
     <div class="form-group mb-2">
-        <label>Kompetensi Keahlian</label>
+        <label>Wali Kelas</label>
         <input value="<?= $data['kompetensi_keahlian'] ?>" type="text" name="kompetensi_keahlian" class="form-control" required>
     </div>
     <div class="form-group">

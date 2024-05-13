@@ -7,7 +7,7 @@
         <input type="text" name="nama_kelas" class="form-control" required>
     </div>
     <div class="form-group mb-2">
-        <label>Kompetensi Keahlian</label>
+        <label>Wali Kelas</label>
         <input type="text" name="kompetensi_keahlian" class="form-control" required>
     </div>
     <div class="form-group">
